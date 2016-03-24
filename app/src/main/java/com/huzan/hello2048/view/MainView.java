@@ -58,10 +58,9 @@ public class MainView extends GridLayout {
 
                             if (x < -5) {
                                 leftUpdate();
-                                
+
                             } else if (x > 5) {
                                 rightUpdate();
-
                             }
                         } else {
 
