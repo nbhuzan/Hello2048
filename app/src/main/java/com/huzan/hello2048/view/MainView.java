@@ -57,22 +57,18 @@ public class MainView extends GridLayout {
                         if (Math.abs(x) > Math.abs(y)) {
 
                             if (x < -5) {
-                                // 左滑
                                 leftUpdate();
 
 
                             } else if (x > 5) {
-                                //右滑
                                 rightUpdate();
 
                             }
                         } else {
 
                             if (y < -5) {
-                                //上滑
                                 upUpdate();
                             } else if (y > 5) {
-                                //下滑
                                 downUpdate();
                             }
 
